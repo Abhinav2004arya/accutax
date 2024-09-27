@@ -52,22 +52,22 @@ function Landing() {
             {/* Header */}
             <header className="header">
                 <div className="header-brand">
-                    <img src="/Images/barterbuddy_icon.png" alt="Logo" className="header-logo" />
+                    <img src="/logo.jpg" alt="Logo" className="navbar-brand" />
                 </div>
                 <div className="header-buttons">
                     <button onClick={() => navigate('/login')} className="btn btn-secondary">Sign In</button>
                     <button onClick={() => navigate('/register')} className="btn btn-primary">Sign Up</button>
                 </div>
-            </header>
+            </header>   
 
             {/* Hero Section */}
             <section className="hero">
                 <div className="hero-content">
-                    <h1>Barter Baazi: Exchange Skills, No Money Needed</h1>
-                    <p>Join a community where knowledge and expertise are the only currency. Share your skills, learn new ones, and grow together without spending a dime.</p>
+                <h1>AccuTax:Tax returns Process Made Easy</h1>
+                <p>Streamline your tax filing process with our user-friendly platform, designed to simplify and guide you through every step for a stress-free tax season.</p>
                     <button onClick={() => navigate('/register')} className="btn btn-primary">Get Started for Free</button>
                 </div>
-                <img src="/Images/l1.png" alt="Skill Barter Graphic" className="hero-image" />
+                <img src="images/graphic.svg" alt="tax Graphic" className="hero-image" />
             </section>
 
             <div className="steps-container">
@@ -83,34 +83,41 @@ function Landing() {
 
             {/* Features Section with Animated Path */}
             <section className="features">
-                <h2>Why Barter Bazzi?</h2>
+                <h2>Why AccuTax?</h2>
 
                 {/* Skill Barter Steps */}
                 <div className={`path-step ${highlightedStep === 1 ? 'highlighted' : ''}`}>
                     <div className="step-number">1</div>
                     <div className="step-info">
-                        <h3>Find the Perfect Match</h3>
+                        <h3>Step by Step tax filling process</h3>
                         <p>Search for users who have the skills you need and offer the skills you have. Our search tool connects you with the right people to exchange knowledge.</p>
                     </div>
                 </div>
                 <div className={`path-step ${highlightedStep === 2 ? 'highlighted' : ''}`}>
                     <div className="step-number">2</div>
                     <div className="step-info">
-                        <h3>Easy Communication</h3>
+                        <h3>Income and Deductions Calculator</h3>
                         <p>Chat directly with other users to arrange skill exchanges. Our messaging system makes it simple to coordinate and communicate effectively.</p>
                     </div>
                 </div>
                 <div className={`path-step ${highlightedStep === 3 ? 'highlighted' : ''}`}>
                     <div className="step-number">3</div>
                     <div className="step-info">
-                        <h3>Learn & Grow</h3>
+                        <h3>Document Upload and Verification</h3>
                         <p>Complete your skill exchange and grow your knowledge in new areas. It's a win-win situation for everyone involved.</p>
                     </div>
                 </div>
                 <div className={`path-step ${highlightedStep === 4 ? 'highlighted' : ''}`}>
                     <div className="step-number">4</div>
                     <div className="step-info">
-                        <h3>Track Your Progress</h3>
+                        <h3>Tax Return Preview and Submission</h3>
+                        <p>Monitor the progress of your skill exchanges and see how far you’ve come in mastering new abilities. Keep pushing forward!</p>
+                    </div>
+                </div>
+                <div className={`path-step ${highlightedStep === 5 ? 'highlighted' : ''}`}>
+                    <div className="step-number">4</div>
+                    <div className="step-info">
+                        <h3>Tax Refund and Payment Notification</h3>
                         <p>Monitor the progress of your skill exchanges and see how far you’ve come in mastering new abilities. Keep pushing forward!</p>
                     </div>
                 </div>

@@ -33,7 +33,7 @@ export default function Login() {
             <input type="password" placeholder="password" name="pass" id="pass"/>
             <div className="recover">
                 <a href="#">Forgot Password?</a>
-                <input type="submit" value="Login" className="sub"/>
+               <Link to="/home"> <input type="submit" value="Login" className="sub"/></Link>
             </div>
         </form>
 

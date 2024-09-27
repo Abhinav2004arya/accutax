@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import Login from './Pages/login';
 import Signup from './Pages/Signup';
 import Navbar from './Components/navbar'
+import Home from './Pages/Home'
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Route path="/" element={<><Landing /><Footer/></>} />
       <Route path="/login" element = {<Login/>}></Route>
       <Route path="/register" element = {<Signup/>}></Route>
-      <Route path="/home" element={<Navbar/>}></Route>
+      <Route path="/home" element={<><Navbar/><Home/></>}></Route>
 
       </Routes>
     </Router>

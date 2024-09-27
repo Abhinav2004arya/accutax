@@ -13,25 +13,22 @@ function Home() {
     useEffect(() => {
         const path = document.querySelector(".theLine");
 
-        // Get the total length of the path
         const totalLength = path.getTotalLength();
 
-        // Set up the path for the stroke animation (initially hidden)
         gsap.set(path, {
             strokeDasharray: totalLength,
             strokeDashoffset: totalLength,
         });
 
-        // Scroll-triggered animation for the SVG path
         gsap.to(path, {
             strokeDashoffset: 0,
             ease: "none",
             scrollTrigger: {
-                trigger: ".features", // Section that triggers the path animation
-                start: "top center",  // Start the animation when the section hits the center of the viewport
-                end: "bottom center", // End the animation when the bottom of the section hits the center
-                scrub: true,          // Smooth animation tied to scroll
-                toggleActions: "restart none none reverse", // Reverse the animation on scroll up
+                trigger: ".features", 
+                start: "top center",  
+                end: "bottom center", 
+                scrub: true,          
+                toggleActions: "restart none none reverse", 
             },
         });
 
@@ -54,11 +51,11 @@ function Home() {
             {/* Hero Section */}
             <section className="hero">
                 <div className="hero-content">
-                    <h1>Barter Baazi: Exchange Skills, No Money Needed</h1>
-                    <p>Join a community where knowledge and expertise are the only currency. Share your skills, learn new ones, and grow together without spending a dime.</p>
+                    <h1>AccuTax:Tax returns Process Made Easy</h1>
+                    <p>Streamline your tax filing process with our user-friendly platform, designed to simplify and guide you through every step for a stress-free tax season.</p>
                     <button onClick={() => navigate('/register')} className="btn btn-primary">Get Started for Free</button>
                 </div>
-                <img src="/Images/l1.png" alt="Skill Barter Graphic" className="hero-image" />
+                <img src="images/graphic.svg" alt="tax Graphic" className="hero-image" />
             </section>
 
             <div className="steps-container">

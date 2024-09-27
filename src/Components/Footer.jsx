@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer sticky-bottom navbar-light shadow-lg p-3">
       <div className="footer-content">
         <div className="footer-logo">
-          <h2>BarterBuddy</h2>
+          <h2>AccuTax</h2>
         </div>
         <ul className="footer-links">
           <li><Link to="/guideline">Guidelines</Link></li>
@@ -33,7 +33,7 @@ function Footer() {
             <img src="images/linkedin.svg" alt="Instagram" />
           </a>
         </div>
-        <p className="footer-copy">&copy; {new Date().getFullYear()} BarterBuddy. All rights reserved.</p>
+        <p className="footer-copy">&copy; {new Date().getFullYear()} AccuTax. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -5,3 +5,7 @@
 .navbar{
     background-color: #1d1d2b;
 }
+.navbar-brand{
+    mix-blend-mode:exclusion;
+
+}
