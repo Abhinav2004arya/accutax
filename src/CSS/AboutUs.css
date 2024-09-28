@@ -1,0 +1,68 @@
+/* General container styling */
+.about-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header section styling */
+.about-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.brand-name {
+    font-weight: bold;
+    color: #ff7e5f;
+}
+
+/* Section styling */
+.about-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.about-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-section ul li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.about-section ul li strong {
+    color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .about-header h1 {
+        font-size: 2rem;
+    }
+
+    .about-header p,
+    .about-section ul li,
+    .about-section p {
+        font-size: 1rem;
+    }
+}

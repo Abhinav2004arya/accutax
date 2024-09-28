@@ -18,10 +18,13 @@ function Navbar() {
                             <Link className="nav-link" to="/itr">ITR</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/itr-calc">ITR-Calculator</Link>
+                            <Link className="nav-link" to="/itr-calc">Tax calculator</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/About Us">About Us</Link>
+                            <Link className="nav-link" to="/about">About Us</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/file">Docs Upload</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/Contact Us">Contact Us</Link>

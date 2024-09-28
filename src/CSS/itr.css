@@ -2,10 +2,14 @@ body{
     height:fit-content;
     background-color: #0d0d0f;
     margin-top: 5vh;
+    background-image: url("../../public/Images/background1.jpg");
+    margin-top: 100px;
+
 }
 
 .container{
-    width: 95vw;
+    width:100%;
+   
 }
 
 .mb-4{
