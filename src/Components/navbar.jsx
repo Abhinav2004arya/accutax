@@ -26,9 +26,7 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/file">Docs Upload</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/Contact Us">Contact Us</Link>
-                        </li>
+                        
                        
                         <li className="nav-item">
                             <Link className="nav-link" to="/">Logout</Link>

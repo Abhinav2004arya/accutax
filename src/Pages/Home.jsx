@@ -55,7 +55,7 @@ function Home() {
                     <p>Streamline your tax filing process with our user-friendly platform, designed to simplify and guide you through every step for a stress-free tax season.</p>
                     <button onClick={() => navigate('/register')} className="btn btn-primary">Get Started for Free</button>
                 </div>
-                <img src="images/graphic.svg" alt="tax Graphic" className="hero-image" />
+                {/* <img src="images/graphic.svg" alt="tax Graphic" className="hero-image" /> */}
             </section>
 
             <div className="steps-container">
