@@ -49,13 +49,38 @@ function Home() {
             {/* Header */}
             
             {/* Hero Section */}
-            <section className="hero">
-                <div className="hero-content">
-                    <h1>AccuTax:Tax returns Process Made Easy</h1>
-                    <p>Streamline your tax filing process with our user-friendly platform, designed to simplify and guide you through every step for a stress-free tax season.</p>
-                    <button onClick={() => navigate('/register')} className="btn btn-primary">Get Started for Free</button>
+            <section className="features">
+                <h2>Why AccuTax?</h2>
+
+                <div className={`path-step ${highlightedStep === 1 ? 'highlighted' : ''}`}>
+                    <div className="step-number">1</div>
+                    <div className="step-info">
+                        <h3>Step by Step tax filling process</h3>
+                        <p>Our platform breaks down the tax filing process into easy-to-follow steps, guiding you through every detail. From entering your income to claiming deductions, we ensure a smooth and stress-free filing experience.</p>
+                    </div>
                 </div>
-                {/* <img src="images/graphic.svg" alt="tax Graphic" className="hero-image" /> */}
+                <div className={`path-step ${highlightedStep === 2 ? 'highlighted' : ''}`}>
+                    <div className="step-number">2</div>
+                    <div className="step-info">
+                        <h3>Income and Deductions Calculator</h3>
+                        <p>Accurately calculate your taxable income and eligible deductions with our built-in calculator. It helps you maximize your savings while ensuring full compliance with tax regulations.</p>
+                    </div>
+                </div>
+                <div className={`path-step ${highlightedStep === 3 ? 'highlighted' : ''}`}>
+                    <div className="step-number">3</div>
+                    <div className="step-info">
+                        <h3>Document Upload and Verification</h3>
+                        <p>Securely upload all necessary documents for verification to complete your filing with accuracy. Our system checks the documents to ensure everything is in order, reducing errors and delays.</p>
+                    </div>
+                </div>
+                <div className={`path-step ${highlightedStep === 4 ? 'highlighted' : ''}`}>
+                    <div className="step-number">4</div>
+                    <div className="step-info">
+                        <h3>Tax Return Preview and Submission</h3>
+                        <p>Review your completed tax return before submission to catch any mistakes. Submit your returns with confidence and ensure accurate filing with our detailed preview feature.</p>
+                    </div>
+                </div>
+               
             </section>
 
             <div className="steps-container">
@@ -69,11 +94,9 @@ function Home() {
                 </svg>
             </div>
 
-            {/* Features Section with Animated Path */}
             <section className="features">
-                <h2>Why Barter Bazzi?</h2>
+                <h2>Why AccuTax?</h2>
 
-                {/* Skill Barter Steps */}
                 <div className={`path-step ${highlightedStep === 1 ? 'highlighted' : ''}`}>
                     <div className="step-number">1</div>
                     <div className="step-info">
@@ -104,11 +127,7 @@ function Home() {
                 </div>
             </section>
 
-            {/* Call to Action */}
-            <section className="call-to-action">
-                <h2>Ready to Start Your Journey?</h2>
-                <button onClick={() => navigate('/register')} className="btn btn-primary">Join Now</button>
-            </section>
+           
         </div>
     );
 }

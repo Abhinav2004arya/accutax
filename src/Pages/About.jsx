@@ -6,7 +6,7 @@ const AboutUs = () => {
         <div className="about-container">
             <div className="about-header">
                 <h1>About Us</h1>
-                <p>Welcome to <span className="brand-name">[Your Website Name]</span>, your trusted partner in simplifying the income tax filing process.</p>
+                <p>Welcome to <span className="brand-name">AccuTax</span>, your trusted partner in simplifying the income tax filing process.</p>
             </div>
 
             <section className="about-section">
@@ -38,7 +38,7 @@ const AboutUs = () => {
 
             <section className="about-section">
                 <h2>Why Choose Us?</h2>
-                <p>At <span className="brand-name">[Your Website Name]</span>, we combine simplicity with powerful tools to make tax filing stress-free. Our platform is designed with your needs in mind, offering:</p>
+                <p>At <span className="brand-name">AccuTax</span>, we combine simplicity with powerful tools to make tax filing stress-free. Our platform is designed with your needs in mind, offering:</p>
                 <ul>
                     <li><strong>User-Centric Design:</strong> Prioritizing ease of use for users of all experience levels.</li>
                     <li><strong>Accessibility:</strong> Features that support people with disabilities.</li>
@@ -48,7 +48,7 @@ const AboutUs = () => {
 
             <section className="about-section">
                 <h2>Join Us Today</h2>
-                <p>Ready to experience stress-free tax filing? <span className="brand-name">[Your Website Name]</span> is here to help you every step of the way. Sign up today and simplify your tax filing process with ease and confidence.</p>
+                <p>Ready to experience stress-free tax filing? <span className="brand-name">AccuTax</span> is here to help you every step of the way. Sign up today and simplify your tax filing process with ease and confidence.</p>
             </section>
         </div>
     );

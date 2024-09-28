@@ -27,8 +27,8 @@ function App() {
       <Route path="/file" element={<><Navbar/><FileUpload/></>}></Route>
       <Route path="/about" element={<><Navbar/><AboutUs/></>}></Route>
 
-
       </Routes>
+     
      
     </Router>
   );
