@@ -49,38 +49,13 @@ function Home() {
             {/* Header */}
             
             {/* Hero Section */}
-            <section className="features">
-                <h2>Why AccuTax?</h2>
-
-                <div className={`path-step ${highlightedStep === 1 ? 'highlighted' : ''}`}>
-                    <div className="step-number">1</div>
-                    <div className="step-info">
-                        <h3>Step by Step tax filling process</h3>
-                        <p>Our platform breaks down the tax filing process into easy-to-follow steps, guiding you through every detail. From entering your income to claiming deductions, we ensure a smooth and stress-free filing experience.</p>
-                    </div>
+            <section className="hero">
+                <div className="hero-content">
+                    <h1>AccuTax:Tax returns Process Made Easy</h1>
+                    <p>Streamline your tax filing process with our user-friendly platform, designed to simplify and guide you through every step for a stress-free tax season.</p>
+                    <button onClick={() => navigate('/register')} className="btn btn-primary">Ready to file your taxes</button>
                 </div>
-                <div className={`path-step ${highlightedStep === 2 ? 'highlighted' : ''}`}>
-                    <div className="step-number">2</div>
-                    <div className="step-info">
-                        <h3>Income and Deductions Calculator</h3>
-                        <p>Accurately calculate your taxable income and eligible deductions with our built-in calculator. It helps you maximize your savings while ensuring full compliance with tax regulations.</p>
-                    </div>
-                </div>
-                <div className={`path-step ${highlightedStep === 3 ? 'highlighted' : ''}`}>
-                    <div className="step-number">3</div>
-                    <div className="step-info">
-                        <h3>Document Upload and Verification</h3>
-                        <p>Securely upload all necessary documents for verification to complete your filing with accuracy. Our system checks the documents to ensure everything is in order, reducing errors and delays.</p>
-                    </div>
-                </div>
-                <div className={`path-step ${highlightedStep === 4 ? 'highlighted' : ''}`}>
-                    <div className="step-number">4</div>
-                    <div className="step-info">
-                        <h3>Tax Return Preview and Submission</h3>
-                        <p>Review your completed tax return before submission to catch any mistakes. Submit your returns with confidence and ensure accurate filing with our detailed preview feature.</p>
-                    </div>
-                </div>
-               
+                {/* <img src="images/graphic.svg" alt="tax Graphic" className="hero-image" /> */}
             </section>
 
             <div className="steps-container">
@@ -101,28 +76,28 @@ function Home() {
                     <div className="step-number">1</div>
                     <div className="step-info">
                         <h3>Find the Perfect Match</h3>
-                        <p>Search for users who have the skills you need and offer the skills you have. Our search tool connects you with the right people to exchange knowledge.</p>
+                        <p>Our platform breaks down the tax filing process into easy-to-follow steps, guiding you through every detail. From entering your income to claiming deductions, we ensure a smooth and stress-free filing experience.</p>
                     </div>
                 </div>
                 <div className={`path-step ${highlightedStep === 2 ? 'highlighted' : ''}`}>
                     <div className="step-number">2</div>
                     <div className="step-info">
                         <h3>Easy Communication</h3>
-                        <p>Chat directly with other users to arrange skill exchanges. Our messaging system makes it simple to coordinate and communicate effectively.</p>
+                        <p>Accurately calculate your taxable income and eligible deductions with our built-in calculator. It helps you maximize your savings while ensuring full compliance with tax regulations.</p>
                     </div>
                 </div>
                 <div className={`path-step ${highlightedStep === 3 ? 'highlighted' : ''}`}>
                     <div className="step-number">3</div>
                     <div className="step-info">
                         <h3>Learn & Grow</h3>
-                        <p>Complete your skill exchange and grow your knowledge in new areas. It's a win-win situation for everyone involved.</p>
+                        <p>Securely upload all necessary documents for verification to complete your filing with accuracy. Our system checks the documents to ensure everything is in order, reducing errors and delays.</p>
                     </div>
                 </div>
                 <div className={`path-step ${highlightedStep === 4 ? 'highlighted' : ''}`}>
                     <div className="step-number">4</div>
                     <div className="step-info">
                         <h3>Track Your Progress</h3>
-                        <p>Monitor the progress of your skill exchanges and see how far you’ve come in mastering new abilities. Keep pushing forward!</p>
+                        <p>Review your completed tax return before submission to catch any mistakes. Submit your returns with confidence and ensure accurate filing with our detailed preview feature.</p>
                     </div>
                 </div>
             </section>
