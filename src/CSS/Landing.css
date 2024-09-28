@@ -11,6 +11,7 @@ body, html {
     width: 100%;
     overflow-x: hidden;
     overflow-y:hidden;
+    background-image: url("../../public/Images/background1.jpg");
 }
 
 /* Header */
@@ -24,6 +25,21 @@ body, html {
     position: fixed;
     width: 100%;
     z-index: 1000;
+}
+
+.A{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 35px;
+    
+}
+.T{
+    color: #0000ff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.name{
+    color: white;
 }
 
 .header-logo {
@@ -63,7 +79,7 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 150px 50px 100px;
-    background: linear-gradient(to right, #1d1d2b, #0d0d0f);
+    /* background: linear-gradient(to right, #1d1d2b, #0d0d0f); */
     color: #f5f5f5;
 }
 .hero-image {
@@ -83,7 +99,7 @@ body, html {
 .hero p {
     font-size: 1.1em;
     margin-bottom: 30px;
-    color: #ecf0f1;
+    color: #0e0e0e;
 }
 .hero-content {
     max-width: 700px;
@@ -163,7 +179,6 @@ body, html {
 
 /* Call to Action */
 .call-to-action {
-    background-color: #1d1d2b;
     padding: 60px 50px ;
     text-align: center;
 }

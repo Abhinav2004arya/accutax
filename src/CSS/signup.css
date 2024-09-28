@@ -4,7 +4,7 @@
 
 
 .lbody {
-    /* background-image: url('../../public/Utilities/wallpaperflare.com_wallpaper (1).jpg'); */
+    background-image: url('../../public/Images/background1.jpg');
     background-size: cover;
     background-position: center; /* Center the background image */
     min-height: 100vh; /* Ensure the div covers the entire viewport height */

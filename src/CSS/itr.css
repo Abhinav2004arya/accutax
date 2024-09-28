@@ -1,0 +1,15 @@
+body{
+    height:fit-content;
+    background-color: #0d0d0f;
+    margin-top: 5vh;
+}
+
+.container{
+    width: 95vw;
+}
+
+.mb-4{
+    background-color:red;
+    padding: '15px';
+    border-radius: '5px' ;
+}

@@ -15,19 +15,20 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto mb-2 navs justify-content-end">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/taxes"><img src="/house-door-fill.svg" alt="Tax"/></Link>
+                            <Link className="nav-link" to="/itr">ITR</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/About Us"><img src="/person-fill-add.svg" alt="About"/></Link>
+                            <Link className="nav-link" to="/itr-calc">ITR-Calculator</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Contact Us"><img src="/search.svg" alt="contact"/></Link>
+                            <Link className="nav-link" to="/About Us">About Us</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/Notifications"><img src="/person-square.svg" alt="Notifications"/></Link>
+                            <Link className="nav-link" to="/Contact Us">Contact Us</Link>
                         </li>
+                       
                         <li className="nav-item">
-                            <Link className="nav-link" to="/"><img src="/box-arrow-right.svg" alt="Logout"/></Link>
+                            <Link className="nav-link" to="/">Logout</Link>
                         </li>
                     </ul>
                 </div>

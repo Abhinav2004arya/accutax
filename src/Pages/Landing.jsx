@@ -52,7 +52,7 @@ function Landing() {
             {/* Header */}
             <header className="header">
                 <div className="header-brand">
-                    <img src="/logo.jpg" alt="Logo" className="navbar-brand" />
+                    <div className="name"><span className="A">A</span>ccu<span className="T">T</span>ax</div>
                 </div>
                 <div className="header-buttons">
                     <button onClick={() => navigate('/login')} className="btn btn-secondary">Sign In</button>

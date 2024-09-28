@@ -88,6 +88,7 @@ export default function Signup()
             <span className='error'>{errors.name}</span>
   
               <input type="text" placeholder="Email-id" name=" email" id="email"/><span class="error" >{errors.email}</span>
+              <input type="text" placeholder="Pan Card number" name=" email" id="email"/><span class="error" >{errors.email}</span>
               <input type="tel" placeholder="Mobile no."  name=" mob" id="mob" /><span class="error" >{errors.mob}</span>
               <input type="password" placeholder="password" name=" pass" id="pass"/><span class="error" >{errors.pass}</span>
               <input type="password" placeholder="Re-Enter Password" name=" rpass" id="rpass"/><span class="error" >{errors.repass}</span>

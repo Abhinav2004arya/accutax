@@ -29,7 +29,7 @@ export default function Login() {
         <div className="lcontainer">
         <h1> Login </h1>
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Username" name=" user" id="user"/>
+            <input type="text" placeholder="Pan card Number" name=" user" id="user"/>
             <input type="password" placeholder="password" name="pass" id="pass"/>
             <div className="recover">
                 <a href="#">Forgot Password?</a>
